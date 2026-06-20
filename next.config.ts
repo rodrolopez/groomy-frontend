@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // Ponemos la URL fija para asegurar el tiro en producción. Si estás local usás localhost.
-const API_URL = "https://foolish-newt-83.loca.lt";
+const API_URL = "https://snowboard-deodorize-bagging.ngrok-free.dev";
 
 const nextConfig: NextConfig = {
   output: "standalone",
