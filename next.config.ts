@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+// Ponemos la URL fija para asegurar el tiro en producción. Si estás local usás localhost.
+const API_URL = "https://groomy-back.loca.lt/api";
 
 const nextConfig: NextConfig = {
   output: "standalone",
